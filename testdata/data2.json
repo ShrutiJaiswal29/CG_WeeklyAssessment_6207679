@@ -1,0 +1,30 @@
+[
+  {
+    "firstname": "Rahul",
+    "lastname": "Sharma",
+    "email": "rahul@test.com",
+    "phone": "9876543210",
+    "address": "Delhi India",
+    "gender": "male",
+    "dob_year": "2000",
+    "dob_month": "May",
+    "dob_day": "015",
+    "hobby": "Sports",
+    "state": "NCR",
+    "city": "Delhi"
+  },
+  {
+    "firstname": "Anita",
+    "lastname": "Verma",
+    "email": "anita@test.com",
+    "phone": "9123456789",
+    "address": "Mumbai India",
+    "gender":"female",
+     "dob_year": "1999",
+    "dob_month": "June",
+    "dob_day": "010",
+    "hobby": "Reading",
+    "state": "NCR",
+    "city": "Delhi"
+  }
+]
