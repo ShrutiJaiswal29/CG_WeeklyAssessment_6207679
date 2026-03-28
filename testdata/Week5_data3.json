@@ -1,6 +1,7 @@
 {
   "url": "https://demowebshop.tricentis.com/",
   "firstName": "Shruti",
+    "email": "test@test.com",
   "lastName": "Test",
   "password": "test123",
   "product": "book"

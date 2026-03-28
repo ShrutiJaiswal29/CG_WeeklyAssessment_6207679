@@ -23,6 +23,13 @@ export default class CartPage {
         await this.page.click('input[name="updatecart"]');
     }
 
+ 
+async applyCoupon(code) {
+    await this.page.waitForSelector('#discountcouponcode');
+    const couponBox = this.page.locator('#discountcouponcode');
+    await couponBox.fill(code);
+    await this.page.click('input[name="applydiscountcouponcode"]');
+}
     // ✅ ADDED (for integration validation)
     async getSubtotalText() {
         return await this.page.locator(this.subTotal).innerText();
