@@ -1,0 +1,28 @@
+{
+  "createBooking": {
+    "firstname": "Shruti",
+    "lastname": "Jaiswal",
+    "totalprice": 5000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-01-01",
+      "checkout": "2024-01-05"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  "updateBooking": {
+    "firstname": "Shruti",
+    "lastname": "Updated",
+    "totalprice": 7000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-02-01",
+      "checkout": "2024-02-05"
+    },
+    "additionalneeds": "Dinner"
+  },
+  "partialUpdateBooking": {
+    "firstname": "PartialName",
+    "lastname": "UpdatedLast"
+  }
+}
